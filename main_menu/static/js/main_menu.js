@@ -1,6 +1,6 @@
 const getOptionChart_humidity = async () => {
     try {
-        const response = await fetch("http://127.0.0.1:8000/get_graph_humidity/");
+        const response = await fetch("http://146.190.51.184:8000/get_graph_humidity/");
         return await response.json();
     } catch (ex) {
         console.log("error de red");
@@ -9,7 +9,7 @@ const getOptionChart_humidity = async () => {
 
 const getOptionChart_nutrients = async () => {
     try {
-        const response = await fetch("http://127.0.0.1:8000/get_graph_nutrients/");
+        const response = await fetch("http://146.190.51.184:8000/get_graph_nutrients/");
         return await response.json();
     } catch (ex) {
         console.log("error de red");
@@ -19,7 +19,7 @@ const getOptionChart_nutrients = async () => {
 
 const getOptionChart_temperature= async () => {
     try {
-        const response = await fetch("http://127.0.0.1:8000/get_graph_temperature/");
+        const response = await fetch("http://146.190.51.184:8000/get_graph_temperature/");
         return await response.json();
     } catch (ex) {
         console.log("error de red");
@@ -29,7 +29,7 @@ const getOptionChart_temperature= async () => {
 
 const getOptionChart_phosphorus = async () => {
     try {
-        const response = await fetch("http://127.0.0.1:8000/get_graph_phosphorus/");
+        const response = await fetch("http://146.190.51.184:8000/get_graph_phosphorus/");
         return await response.json();
     } catch (ex) {
         console.log("error de red");
@@ -39,7 +39,7 @@ const getOptionChart_phosphorus = async () => {
 
 const getOptionChart_pie = async () => {
     try {
-        const response = await fetch("http://127.0.0.1:8000/get_graph_pie/");
+        const response = await fetch("http://146.190.51.184:8000/get_graph_pie/");
         return await response.json();
     } catch (ex) {
         console.log("error de red");
@@ -49,7 +49,7 @@ const getOptionChart_pie = async () => {
 
 const getOptionChart_large = async () => {
     try {
-        const response = await fetch("http://127.0.0.1:8000/get_graph_large/");
+        const response = await fetch("http://146.190.51.184:8000/get_graph_large/");
         return await response.json();
     } catch (ex) {
         console.log("error de red");
