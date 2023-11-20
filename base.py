@@ -67,7 +67,7 @@ def insertar_datos(database, columna1, columna2):
         conexion.close()
 
 def receive_data(client_socket, client_address):
-    database = r"/home/jairnarv/Escritorio/pip_final/garden_pip/db.sqlite3"
+    database = r"db.sqlite3"
     conn = create_connection(database)
 
     while True:
