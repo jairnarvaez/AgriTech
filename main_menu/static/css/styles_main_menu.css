@@ -1,0 +1,29 @@
+.graph_humidity {
+    width: 100%;
+    min-height: 400px;
+}
+
+.graph_nutrients{
+    width: 100%;
+    min-height: 400px;
+}
+
+.graph_temperature{
+    width: 100%;
+    min-height: 400px;
+}
+
+.graph_phosphorus{
+    width: 100%;
+    min-height: 400px;
+}
+
+.graph_pie{
+    width: 100%;
+    min-height: 400px;   
+}
+
+.graph_large{
+    width: 100%;
+    min-height: 400px;    
+}
