@@ -1,0 +1,15 @@
+[Unit]
+Description=Run django server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/webapps/petnet/AgriTech
+ExecStart=/root/webapps/petnet/AgriTech/runserver.sh start
+ExecStop=/root/webapps/petnet/AgriTech/runserver.sh stop
+ExecReload=/root/webapps/petnet/AgriTech/runserver.sh restart
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
